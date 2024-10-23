@@ -1,9 +1,10 @@
 package iteration
 
-func Repeat(s string) string {
+// Repeat returns character repeated 5 times.
+func Repeat(character string) string {
 	var repeated string
 	for i := 0; i < 5; i++ {
-		repeated = repeated + s
+		repeated = repeated + character
 	}
 	return repeated
 }
